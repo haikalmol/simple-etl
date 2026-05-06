@@ -91,5 +91,6 @@ Hasil akhir pipeline ini dapat ditinjau secara langsung (secara live) pada tauta
 [https://docs.google.com/spreadsheets/d/1nOMgE4U1KVB4tZqxR6oRCkQ5zZKfTs8RBI1zioNrwvU/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1nOMgE4U1KVB4tZqxR6oRCkQ5zZKfTs8RBI1zioNrwvU/edit?usp=sharing)
 
 ✒️ Pengembang
+
 Haikal Fairuzi Maulana
 Dibuat untuk memenuhi kriteria submission "Membangun ETL Pipeline" - Dicoding Academy (2026).
