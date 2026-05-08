@@ -1,0 +1,26 @@
+NAMA  : Haikal Fairuzi Maulana
+TUGAS : Fundamental Pemrosesan Data (ETL Pipeline)
+
+=== TAUTAN HASIL LOAD GOOGLE SHEETS ===
+URL: https://docs.google.com/spreadsheets/d/1nOMgE4U1KVB4tZqxR6oRCkQ5zZKfTs8RBI1zioNrwvU/edit?usp=sharing
+(Akses "Anyone with the link is Editor" telah diaktifkan)
+
+=== CARA MENJALANKAN SKRIP UTAMA ===
+1. Pastikan Anda berada di root direktori proyek.
+2. Buat dan aktifkan virtual environment (opsional namun disarankan):
+   > python -m venv venv
+   > venv\Scripts\activate
+3. Instal dependencies yang dibutuhkan:
+   > pip install -r requirements.txt
+4. Jalankan pipeline utama:
+   > python main.py
+   (Sistem akan secara otomatis mengeksekusi ekstraksi, transformasi, dan proses load ke CSV, PostgreSQL, dan Google Sheets).
+
+=== CARA MENJALANKAN UNIT TEST & COVERAGE ===
+1. Pastikan pustaka testing telah terinstal:
+   > pip install pytest pytest-mock coverage
+2. Untuk menjalankan unit testing:
+   > pytest tests/
+3. Untuk melihat laporan Test Coverage (mencapai 96%):
+   > coverage run -m pytest tests/
+   > coverage report
